@@ -1,9 +1,9 @@
 package tugaspbo03;
 
 public class SepatuRoda {
-     String warna;
-     String merk;
-     double harga;
+     private String warna;
+     private String merk;
+     private double harga;
      
      void cetakinfo(){
          System.out.println("Warna \t: "+warna+"\n"+
