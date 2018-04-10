@@ -7,5 +7,12 @@ public class SepatuRodaAksi {
         s.setHarga(70000);
          
          s.cetakinfo();
+         
+         System.out.println("Warnanya \t: ");
+         System.out.println(s.getWarna());
+         System.out.println("Merknya \t: ");
+         System.out.println(s.getMerk());
+         System.out.println("Harganya \t: ");
+         System.out.println(s.getHarga());
     }
 }
